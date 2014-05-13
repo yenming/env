@@ -33,7 +33,7 @@ NeoBundle 'groenewege/vim-less'
 " Auto complection and snipmate + snippets
 NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'Shougo/neosnippet'
-
+NeoBundle 'shougo/neosnippet-snippets'
 "  let g:neocomplcache_enable_at_startup = 1
 
 
