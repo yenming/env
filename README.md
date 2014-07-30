@@ -32,6 +32,6 @@ mv ~/.zshrc ~/.zshrc.bak
 
 Link congifs 
 ```
-ln -s ~/env/_vimrc .vimrc
-ln -s ~/env/_zshrc .zshrc
+ln -s ~/env/_vimrc ~/.vimrc
+ln -s ~/env/_zshrc ~/.zshrc
 ```
