@@ -10,7 +10,7 @@ Install
 Clone it!
 ```
 git clone git@github.com:dca/env.git ~/env
-cd ./env/
+cd ~/env/
 ```
 
 
