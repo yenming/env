@@ -84,4 +84,8 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export LESSCHARSET=utf-8
 export LANG=zh_TW.utf-8
 #export LC_ALL=zh_TW.utf-8
+export LC_ALL="en_US.UTF-8"
 
+
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

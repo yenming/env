@@ -26,6 +26,7 @@ NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'digitaltoad/vim-jade'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'groenewege/vim-less'
+NeoBundle 'mxw/vim-jsx'
 
 
 
@@ -41,7 +42,7 @@ NeoBundle 'shougo/neosnippet-snippets'
 
 
 
-
+NeoBundle 'Valloric/YouCompleteMe'
 
 
 
@@ -117,7 +118,7 @@ set smarttab
 set si
 
 "
-autocmd FileType javascript set tabstop=4 | set shiftwidth=4
+autocmd FileType javascript set tabstop=2 | set shiftwidth=2
 
 
 
@@ -218,6 +219,19 @@ NeoBundle 'mattn/emmet-vim'
 
 
 
+"----------------------------
+" jsx
+"----------------------------
+
+let g:jsx_ext_required = 0
+
+"let g:jsx_pragma_required = 1
+
+
+
+
+
+
 
 "----------------------------
 " js beautify
@@ -257,5 +271,16 @@ filetype plugin indent on     " Required!
 " :NeoBundleInstall(!)    - install(update) bundles
 " :NeoBundleClean(!)      - confirm(or auto-approve) removal of unused bundles
 
+
+
+
+
+NeoBundle 'editorconfig/editorconfig-vim'
+let g:PreserveNoEOL = 1
+NeoBundle 'vim-scripts/PreserveNoEOL'
+
+
 " Installation check.
+
 NeoBundleCheck
+
