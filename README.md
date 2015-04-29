@@ -1,7 +1,7 @@
 env
 ===
 
-is my env setting
+my env setting
 
 
 Install
