@@ -11,3 +11,4 @@ brew cask install google-chrome
 brew cask install 1password
 brew cask install dropbox
 brew cask install jeromelebel-mongohub
+brew cask install dockertoolbox
