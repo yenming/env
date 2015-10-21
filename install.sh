@@ -10,6 +10,6 @@ brew cask install iterm2
 brew cask install google-chrome
 brew cask install 1password
 brew cask install dropbox
-brew cask install jeromelebel-mongohub
+brew cask install jeromelebel-mongohub psequel sequel-pro
 brew cask install dockertoolbox
 brew cask install kkbox
