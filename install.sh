@@ -10,3 +10,4 @@ brew cask install iterm2
 brew cask install google-chrome
 brew cask install 1password
 brew cask install dropbox
+brew cask install jeromelebel-mongohub
