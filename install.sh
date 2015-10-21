@@ -30,4 +30,4 @@ brew cask install kkbox
 
 # 工具列輔助
 brew cask install bartender
-
+brew cask install alfred
