@@ -25,9 +25,12 @@ brew cask install jeromelebel-mongohub psequel sequel-pro
 # 虛擬化
 brew cask install dockertoolbox
 
-# 音樂
-brew cask install kkbox
-
 # 工具列輔助
 brew cask install bartender
 brew cask install alfred
+
+# 音樂
+brew cask install kkbox
+
+# 影片播放器
+brew cask install mplayerx
