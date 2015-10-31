@@ -34,3 +34,8 @@ brew cask install kkbox
 
 # 影片播放器
 brew cask install mplayerx
+
+## 開發
+brew install nvm
+brew cask install sublime-text
+
