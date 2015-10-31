@@ -35,3 +35,8 @@ Link congifs
 ln -s ~/env/_vimrc ~/.vimrc
 ln -s ~/env/_zshrc ~/.zshrc
 ```
+
+Change to zsh
+```
+chsh -s /bin/zsh
+```
