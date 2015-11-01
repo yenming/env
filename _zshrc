@@ -75,10 +75,16 @@ export LANG=en_US.UTF-8
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 #
 
-source /Users/dca/.gvm/scripts/gvm
-
 [[ -s "$HOME/.nvm/nvm.sh" ]] && source "$HOME/.nvm/nvm.sh" # This loads NVM
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
 
 export LESSCHARSET=utf-8
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+
+source /Users/dca/.gvm/scripts/gvm
+
+
+export PATH="/usr/local/sbin:$PATH"
