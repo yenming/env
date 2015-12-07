@@ -4,7 +4,7 @@ xcode-select --install
 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install curl git git-flow iftop tree ncdu
+brew install curl git git-flow iftop tree ncdu mosh
 brew install caskroom/cask/brew-cask
 
 # 更好的終端機
@@ -37,5 +37,5 @@ brew cask install mplayerx
 
 ## 開發
 brew install nvm
-brew cask install sublime-text
+brew cask install sublime-text sourcetree
 

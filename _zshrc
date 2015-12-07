@@ -84,7 +84,8 @@ export LESSCHARSET=utf-8
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 
-source /Users/dca/.gvm/scripts/gvm
+[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
+##source /Users/dca/.gvm/scripts/gvm
 
 
 export PATH="/usr/local/sbin:$PATH"
