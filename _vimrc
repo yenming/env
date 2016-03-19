@@ -22,13 +22,14 @@ NeoBundle 'Shougo/vimproc'
 
 
 " Syntax
-NeoBundle 'pangloss/vim-javascript'
+" NeoBundle 'pangloss/vim-javascript'
+" NeoBundle 'mxw/vim-jsx'
+" NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'digitaltoad/vim-jade'
-NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'groenewege/vim-less'
-NeoBundle 'mxw/vim-jsx'
-
-
+NeoBundle 'othree/javascript-libraries-syntax.vim'
+NeoBundle 'othree/yajs.vim'
+NeoBundle 'othree/es.next.syntax.vim'
 
 
 " Auto complection and snipmate + snippets
