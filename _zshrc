@@ -89,3 +89,5 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 
 export PATH="/usr/local/sbin:$PATH"
+
+[[ -s "/Users/dca/.gvm/scripts/gvm" ]] && source "/Users/dca/.gvm/scripts/gvm"
