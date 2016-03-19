@@ -5,6 +5,13 @@ xcode-select --install
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew install curl git git-flow iftop tree ncdu mosh
+
+# tldr 指令懶人包
+brew tap tldr-pages/tldr
+brew install tldr
+
+
+# brew-cask 軟體安裝管理
 brew install caskroom/cask/brew-cask
 
 # 更好的終端機
