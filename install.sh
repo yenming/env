@@ -30,7 +30,8 @@ brew cask install 1password
 brew cask install jeromelebel-mongohub psequel sequel-pro
 
 # 虛擬化
-brew cask install dockertoolbox
+# waiting for docker 1.12
+# brew cask install dockertoolbox
 
 # 工具列輔助
 brew cask install bartender
@@ -44,5 +45,7 @@ brew cask install mplayerx
 
 ## 開發
 brew install nvm
-brew cask install sublime-text sourcetree
+
+## 輔助
+brew cask install sourcetree
 
