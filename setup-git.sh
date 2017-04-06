@@ -1,0 +1,24 @@
+#!/bin/bash
+
+echo -e  'Git 設定懶人包...\n'
+
+sleep .1
+echo '設定 Git 編輯器'
+git config --global core.editor vim
+
+sleep .1
+echo '設定 Git 使用者名稱及信箱'
+git config --global user.email "dcahsu@gmail.com"
+git config --global user.name "Dca"
+git config user.name
+git config user.email
+echo ' '
+
+sleep .1
+echo '設定 Global gitignore 檔案'
+ln -sf $(pwd)/_gitignore_global $HOME/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
+
+sleep .1
+echo '[Done] 搞定, 可以用了!...'
+
