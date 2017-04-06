@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo -e  'Git 設定懶人包...\n'
+cdir=$(cd "$(dirname "$0")"; pwd)
 
 sleep .1
 echo '設定 Git 編輯器'
@@ -16,7 +17,7 @@ echo ' '
 
 sleep .1
 echo '設定 Global gitignore 檔案'
-ln -sf $(pwd)/_gitignore_global $HOME/.gitignore_global
+ln -sf ${cdir}/_gitignore_global $HOME/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 
 sleep .1

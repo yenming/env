@@ -14,7 +14,7 @@ cd ~/env/
 ```
 
 
-
+### Usage
 
 Install submodule
 ```
@@ -22,17 +22,20 @@ git submodule init
 git submodule update
 ```
 
+install
+```
+sh ./install.sh
+```
+
+### zsh 
 
 Backup current configs
 ```
-mv ~/.vimrc ~/.vimrc.bak
 mv ~/.zshrc ~/.zshrc.bak
 ```
 
-
 Link congifs 
 ```
-ln -s ~/env/_vimrc ~/.vimrc
 ln -s ~/env/_zshrc ~/.zshrc
 ```
 
