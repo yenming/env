@@ -9,8 +9,8 @@ git config --global core.editor vim
 
 sleep .1
 echo '設定 Git 使用者名稱及信箱'
-git config --global user.email "dcahsu@gmail.com"
-git config --global user.name "Dca"
+git config --global user.email "yenming0212@gmail.com"
+git config --global user.name "yenming"
 git config user.name
 git config user.email
 echo ' '
